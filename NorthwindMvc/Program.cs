@@ -18,6 +18,15 @@ namespace NorthwindMvc
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                    
+                    // Added to use Web Api from NorthwindService on https://localhost:5000  
+                    webBuilder.UseUrls(
+                        "http://localhost:5000",
+                        "https://localhost:5002"
+                        );
+                });
     }
 }

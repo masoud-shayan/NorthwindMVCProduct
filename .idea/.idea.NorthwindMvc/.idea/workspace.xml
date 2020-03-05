@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60d3d7fe-3ca1-494c-b473-9f048796f2c2" name="Default Changelist" comment="" />
+    <list default="true" id="60d3d7fe-3ca1-494c-b473-9f048796f2c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NorthwindMvc/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NorthwindMvc/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NorthwindMvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NorthwindMvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/NorthwindMvc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/bin/Debug/netcoreapp3.1/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NorthwindMvc/obj/Debug/netcoreapp3.1/NorthwindMvc.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Areas/Identity/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -22,6 +43,8 @@
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Models/Thing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Views/Home/ModelBinding.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../NorthwindEntitiesLib/NorthwindEntitiesLib/Product.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NorthwindMvc/Views/Home/Customers.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NorthwindMvc/Views/Home/Customers.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Models/HomeModelBindingViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Views/Home/ProductsThatCostMoreThan.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NorthwindMvc/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,7 +61,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/NorthwindMvc/NorthwindMvc.csproj" />
-        <option value="$PROJECT_DIR$/NorthwindMvc/Startup.cs" />
         <option value="$PROJECT_DIR$/NorthwindMvc/Models/HomeIndexViewModel.cs" />
         <option value="$PROJECT_DIR$/NorthwindMvc/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/NorthwindMvc/Views/Home/ProductDetail.cshtml.cs" />
@@ -48,11 +70,16 @@
         <option value="$PROJECT_DIR$/NorthwindMvc/Models/HomeModelBindingViewModel.cs" />
         <option value="$PROJECT_DIR$/NorthwindMvc/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/NorthwindMvc/Views/Home/ProductsThatCostMoreThan.cshtml" />
+        <option value="$PROJECT_DIR$/NorthwindMvc/Startup.cs" />
+        <option value="$PROJECT_DIR$/NorthwindMvc/Views/Home/Customers.cshtml.cs" />
+        <option value="$PROJECT_DIR$/NorthwindMvc/Views/Home/Customers.cshtml" />
         <option value="$PROJECT_DIR$/NorthwindMvc/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/NorthwindMvc/Program.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1YMi4jDeV073tj3jclKxcuAlDSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -60,6 +87,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.NorthwindMvc">
@@ -116,32 +144,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582758674909</updated>
-      <workItem from="1582758676454" duration="29571000" />
+      <workItem from="1582758676454" duration="30511000" />
+      <workItem from="1583365472517" duration="3617000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1322" height="32" key="GridCell.Tab.0.bottom" timestamp="1583163407519">
+    <state width="1322" height="32" key="GridCell.Tab.0.bottom" timestamp="1583212210853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="32" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583163407519" />
-    <state width="1322" height="32" key="GridCell.Tab.0.center" timestamp="1583163407519">
+    <state width="1322" height="32" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583212210853" />
+    <state width="1322" height="32" key="GridCell.Tab.0.center" timestamp="1583212210853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="32" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583163407519" />
-    <state width="1322" height="32" key="GridCell.Tab.0.left" timestamp="1583163407519">
+    <state width="1322" height="32" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583212210853" />
+    <state width="1322" height="32" key="GridCell.Tab.0.left" timestamp="1583212210853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="32" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583163407519" />
-    <state width="1322" height="32" key="GridCell.Tab.0.right" timestamp="1583163407519">
+    <state width="1322" height="32" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583212210853" />
+    <state width="1322" height="32" key="GridCell.Tab.0.right" timestamp="1583212210853">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="32" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583163407519" />
+    <state width="1322" height="32" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583212210853" />
     <state x="275" y="95" key="Rider.ProjectTemplateDialog.Size" timestamp="1582854597269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

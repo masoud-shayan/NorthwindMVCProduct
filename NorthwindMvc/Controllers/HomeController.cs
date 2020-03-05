@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using NorthwindContextLib;
 using NorthwindEntitiesLib;
 using NorthwindMvc.Models;
@@ -18,10 +20,14 @@ namespace NorthwindMvc.Controllers
 
         private Northwind db;
 
-        public HomeController(ILogger<HomeController> logger, Northwind injectedContext)
+        private readonly IHttpClientFactory clientFactory;
+
+        public HomeController(ILogger<HomeController> logger, Northwind injectedContext,
+            IHttpClientFactory httpClientFactory)
         {
             _logger = logger;
             db = injectedContext;
+            clientFactory = httpClientFactory;
         }
 
         public async Task<IActionResult> Index()
@@ -35,7 +41,7 @@ namespace NorthwindMvc.Controllers
             return View(model);
         }
 
-        public async Task<IActionResult>  ProductDetail(int? id)
+        public async Task<IActionResult> ProductDetail(int? id)
         {
             if (!id.HasValue)
             {
@@ -76,13 +82,12 @@ namespace NorthwindMvc.Controllers
         }
 
 
-        
-        
         public IActionResult ProductsThatCostMoreThan(decimal? price)
         {
             if (!price.HasValue)
             {
-                return NotFound("You must pass a product price in the query string, for example, /Home/ProductsThatCostMoreThan?price=50");
+                return NotFound(
+                    "You must pass a product price in the query string, for example, /Home/ProductsThatCostMoreThan?price=50");
             }
 
             IEnumerable<Product> model = db.Products
@@ -100,6 +105,37 @@ namespace NorthwindMvc.Controllers
         }
 
 
+        
+        // Added to use Web Api from NorthwindService on https://localhost:5001  
+        public async Task<IActionResult> Customers(string country)
+        {
+            string uri;
+            if (string.IsNullOrEmpty(country))
+            {
+                ViewData["Title"] = "All Customers Worldwide";
+                uri = "api/customers/";
+            }
+            else
+            {
+                ViewData["Title"] = $"Customers in {country}";
+                uri = $"api/customers/?country={country}";
+            }
+
+            var client = clientFactory.CreateClient(name: "NorthwindService");
+            
+            var request = new HttpRequestMessage(method: HttpMethod.Get, requestUri: uri);
+            
+            HttpResponseMessage response = await client.SendAsync(request);
+            
+            string jsonString = await response.Content.ReadAsStringAsync();
+            
+            IEnumerable<Customer> model = JsonConvert.DeserializeObject<IEnumerable<Customer>>(jsonString);
+            
+            return View(model);
+        }
+
+        
+        
         public IActionResult Privacy()
         {
             return View();

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
@@ -40,6 +41,15 @@ namespace NorthwindMvc
                 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            
+            // Added to use Web Api from NorthwindService on https://localhost:5000 
+            services.AddHttpClient(name: "NorthwindService", configureClient: options =>
+            {
+                options.BaseAddress = new Uri("https://localhost:5001/");
+                options.DefaultRequestHeaders.Accept.Add(
+                    new MediaTypeWithQualityHeaderValue(
+                        "application/json", 1.0));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
